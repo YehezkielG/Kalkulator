@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="program.js"></script>
+</head>
+
+<body>
+  <center>
+    <h1>Kalkulator</h1>
+    <form name="form">
+      <div class="kalkulator">
+        <input type="text" name="ht" class="layar" readonly>
+        <hr>
+        <div class="tombol">
+          <input type="button" value="1" name="nilai" onclick="insert(1)">
+          <input type="button" value="2" onclick="insert(2)">
+          <input type="button" value="3" onclick="insert(3)">
+          <input type="button" value="DEL"  onclick="back()" style="font-size: 25px; background-color: brown;">
+          <input type="button" value="4" onclick="insert(4)">
+          <input type="button" value="5" onclick="insert(5)">
+          <input type="button" value="6" onclick="insert(6)">
+          <input type="button" value="C"  onclick="clear1()" style="background-color: red;">
+          <input type="button" value="7" onclick="insert(7)">
+          <input type="button" value="8" onclick="insert(8)">
+          <input type="button" value="9" onclick="insert(9)">
+          <input type="button" value="=" onclick="samd()" style="background-color: darkgreen;">
+          <input type="button" value="(" onclick="insert('(')">
+          <input type="button" value="0" onclick="insert(0)">
+          <input onclick="insert(')')" type="button" value=")">
+          <input type="button" value="." onclick="insert('.')" style="background-color: gray;">
+          <input type="button" value="/" class="bg" onclick="insert('/')">
+          <input type="button" value="+" class="bg" onclick="insert('+')">
+          <input type="button" value="-" class="bg" onclick="insert('-')">
+          <input type="button" value="x" class="bg" onclick="insert('*')"">  
+      </div>
+          </div></form></center>
+</body>
+</html>
